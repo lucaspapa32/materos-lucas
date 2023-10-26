@@ -11,6 +11,7 @@ html{
 header{
     background-color: bisque;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
@@ -24,15 +25,42 @@ header img{
 header nav ul{
     list-style: none;
     display: flex;
+    flex-direction: column;
     column-gap: 20px;
     padding: 20px 40px;
-    font-size: 15px;
 }
 
-header nav ul li a{
+nav ul li a{
     text-decoration: none;
+    font-size: 20px;
     color: black;
+    font-weight: 500;
 }
+
+@media screen and (min-width: 768px){
+    header{
+        flex-direction: row;
+    }
+
+    header nav ul{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .conteiner-contacto{
+        flex-direction: row;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 section{
     margin-top: 50px;
@@ -89,7 +117,7 @@ footer .conteiner-footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    margin: 20px;
 }
 
 /*Sobre nostros*/
@@ -107,11 +135,25 @@ footer .conteiner-footer{
 
 /*Contacto*/
 .conteiner-contacto{
+    margin: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
+    gap: 30px;
+}
+
+.mapa-contacto iframe{
+    width: 100%;
 }
 
 
 
 
+/* Creá tu cuenta */
+.formulario{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
