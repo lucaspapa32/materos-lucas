@@ -1,4 +1,14 @@
 @charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   background-color: bisque;
   display: flex;
@@ -25,19 +35,6 @@ header nav ul li a {
   font-weight: 500;
 }
 
-@media screen and (min-width: 768px) {
-  header {
-    flex-direction: row;
-  }
-  header nav ul {
-    flex-direction: row;
-  }
-}
-@media screen and (min-width: 1024px) {
-  .conteiner-contacto {
-    flex-direction: row;
-  }
-}
 section {
   margin-top: 50px;
 }
@@ -119,6 +116,20 @@ footer .conteiner-footer {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+  }
+  header nav ul {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .conteiner-contacto {
+    flex-direction: row;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

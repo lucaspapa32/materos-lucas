@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -52,12 +52,6 @@ nav ul li a{
         flex-direction: row;
     }
 }
-
-
-
-
-
-
 
 
 
@@ -118,42 +112,42 @@ footer .conteiner-footer{
     align-items: center;
     text-align: center;
     margin: 20px;
-}
+} */
 
 /*Sobre nostros*/
-.nosotros-p{
+/* .nosotros-p{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 20px;
-}
+} */
 
 
 
 
 /*Contacto*/
-.conteiner-contacto{
+/* .conteiner-contacto{
     margin: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 30px;
-}
+} */
 
-.mapa-contacto iframe{
+/* .mapa-contacto iframe{
     width: 100%;
-}
+} */
 
 
 
 
 /* Creá tu cuenta */
-.formulario{
+/* .formulario{
     margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;
-}
+} */
